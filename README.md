@@ -2,6 +2,8 @@
 
 A concise professional portfolio for Benton Caldwell, a Tulane economics student and founder of Biowalk. Built for a class assignment using his résumé, public LinkedIn information, and supplied photos.
 
+The October 2026 redesign uses light gray backgrounds, large editorial headings, and spacious layouts inspired by [Devon Stank](https://devonstank.com/). `personal.html` contains interests and two intentionally blank story paragraphs. Surfing, rugby, and outdoor photo spaces await Benton's own images. `books.html` is a dedicated, intentionally empty audiobook list; no favorite titles have been invented.
+
 ## What visitors see
 
 - A personal introduction and real portrait.
@@ -12,7 +14,7 @@ A concise professional portfolio for Benton Caldwell, a Tulane economics student
 
 ## How the site works
 
-`index.html` contains the words, images, links, and page sections. HTML gives them meaning: a main heading, navigation, articles, and a footer.
+`index.html`, `personal.html`, and `books.html` contain the words, images, links, and page sections. HTML gives them meaning: a main heading, navigation, articles, and a footer.
 
 `style.css` controls the fonts, colors, spacing, and layout. Media queries change the layout on narrower screens so the columns stack on a phone.
 
@@ -56,7 +58,7 @@ The initial local commits were created by Codex and are labeled accordingly. Fut
 
 ## Design and accessibility choices
 
-- Editorial serif headings, forest green accents, and a consistent spacing system.
+- Editorial serif headings, light gray surfaces, slate accents, and a consistent spacing system.
 - One main heading, meaningful sections, a skip link, image descriptions, and visible keyboard focus.
 - At least 44px-high principal navigation and action targets.
 - Responsive layouts, reduced-motion support, image dimensions, lazy loading below the opening portrait, and no external fonts or scripts.
